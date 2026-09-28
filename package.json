@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/planflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan filesystem flux paths across POSIX and Windows conventions.",
+  "bin": {
+    "planflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/planflux.git"
+  },
+  "homepage": "https://theworker02.github.io/planflux/",
+  "keywords": [
+    "plan",
+    "flux",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
